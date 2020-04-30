@@ -8,4 +8,4 @@ node('UBUNTU2'){
     stage('Archive artifacts'){
          archive 'gameoflife-web/target/*.war'
     }
-}
+} 
